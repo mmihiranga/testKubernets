@@ -25,7 +25,7 @@ spec:
         app: test-sliit
     spec:
       containers:
-      - image: 19990106/sliit-kubernets-test:284012f5a3fc95a998465b2bcc7eeca5881a94ea
+      - image: 19990106/sliit-kubernets-test::latest
         imagePullPolicy: Always
         name: sliit-kubernets-test
         resources: {}
